@@ -26,13 +26,13 @@ layout: home
 
 ## Real-World Vulnerability Discoveries
 
-- **2025-10-19**: A2 discovered a vulnerability in an application from ██████ (a US tier-1 company). We are currently assisting their team with the discussion and remediation process.
+- **2025-10-19**: A2 discovered a vulnerability in an application from ██████ (a US tier-1 company). Our vulnerability report is currently under review.
 
-- **2025-10-18**: A2 discovered a vulnerability in an application from ██████ (a Chinese tier-1 company). We are assisting their team with the discussion and remediation process.
+- **2025-10-18**: A2 discovered a vulnerability in an application from ██████ (a Chinese tier-1 company). Our vulnerability report is currently under review.
 
-- **2025-09-20**: A2 discovered a privacy vulnerability in Via Browser ([Google Play](https://play.google.com/store/apps/details?id=mark.via.gp), 10M+ downloads). The vulnerability has been fixed in version 6.7.0, and the CVE is currently under review.
+- **2025-09-20**: A2 discovered a privacy vulnerability in Via Browser ([Google Play](https://play.google.com/store/apps/details?id=mark.via.gp), 10M+ downloads). The vulnerability has been fixed in version 6.7.0.
 
-- We are currently conducting responsible disclosure for vulnerabilities discovered in 50+ production applications.
+- **2025-09**: We are currently conducting responsible disclosure for vulnerabilities discovered in 50+ production applications.
 
 
 
@@ -87,3 +87,10 @@ In real-world evaluation on 169 production APKs, A2 uncovers **104 true-positive
 ## Open Source
 
 We are in the vulnerability disclose stage. After that, the A2 code will be open source.
+
+---
+
+## Acknowledgments
+
+We gratefully acknowledge [AndroZoo](https://androzoo.uni.lu/) for providing access to their comprehensive collection of Android applications. This valuable dataset was instrumental in enabling our real-world vulnerability assessment and validation experiments. The availability of such high-quality research resources significantly advances the field of mobile security analysis.
+
