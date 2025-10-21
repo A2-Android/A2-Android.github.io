@@ -24,6 +24,18 @@ layout: home
 
 ---
 
+## Real-World Vulnerability Discoveries
+
+- **2025-10-19**: A2 discovered a vulnerability in an application from ██████ (a US tier-1 company). We are currently assisting their team with the discussion and remediation process.
+
+- **2025-10-18**: A2 discovered a vulnerability in an application from ██████ (a Chinese tier-1 company). We are assisting their team with the discussion and remediation process.
+
+- **2025-09-20**: A2 discovered a privacy vulnerability in Via Browser ([Google Play](https://play.google.com/store/apps/details?id=mark.via.gp), 10M+ downloads). The vulnerability has been fixed in version 6.7.0, and the CVE is currently under review.
+
+- We are currently conducting responsible disclosure for vulnerabilities discovered in 50+ production applications.
+
+
+
 ## Abstract
 
 Existing Android vulnerability detection tools overwhelm teams with thousands of low-signal warnings yet uncover few true positives. Analysts spend days triaging these results, creating a bottleneck in the security pipeline. Meanwhile, genuinely exploitable vulnerabilities often slip through, leaving opportunities open to malicious counterparts.
@@ -70,3 +82,8 @@ In real-world evaluation on 169 production APKs, A2 uncovers **104 true-positive
   year={2025}
 }
 ```
+
+
+## Open Source
+
+We are in the vulnerability disclose stage. After that, the A2 code will be open source.
