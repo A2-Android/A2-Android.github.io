@@ -30,7 +30,7 @@ layout: home
 
 - **2025-10-18**: A2 discovered a vulnerability in an application from ██████ (a Chinese tier-1 company). Our vulnerability report is currently under review.
 
-- 🎉**2025-09-20**: A2 discovered a privacy vulnerability in Via Browser ([Google Play](https://play.google.com/store/apps/details?id=mark.via.gp), 10M+ downloads). The vulnerability has been fixed in version 6.7.0.
+- 🎉 **2025-09-20**: A2 discovered a privacy vulnerability in Via Browser ([Google Play](https://play.google.com/store/apps/details?id=mark.via.gp), 10M+ downloads). The vulnerability has been fixed in version 6.7.0.
 
 - **2025-09**: We are currently conducting responsible disclosure for vulnerabilities discovered in 50+ production applications.
 
