@@ -34,7 +34,7 @@ layout: home
 
 - **2025-09**: We are currently conducting responsible disclosure for vulnerabilities discovered in 50+ production applications.
 
-
+---
 
 ## Abstract
 
@@ -83,6 +83,7 @@ In real-world evaluation on 169 production APKs, A2 uncovers **104 true-positive
 }
 ```
 
+---
 
 ## Open Source
 
