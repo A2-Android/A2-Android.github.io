@@ -1,6 +1,5 @@
 ---
 layout: home
-title: "A2: Agentic Discovery and Validation of Android App Vulnerabilities"
 ---
 
 <div style="text-align: center; margin-bottom: 2em;">
