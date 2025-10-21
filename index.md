@@ -6,12 +6,12 @@ title: "A2: Agentic Discovery and Validation of Android App Vulnerabilities"
 <div style="text-align: center; margin-bottom: 2em;">
   <h1 style="margin-bottom: 0.5em;">Agentic Discovery and Validation of Android App Vulnerabilities</h1>
 
-  <p style="font-size: 1.2em; margin-bottom: 1em;">
+  <p style="font-size: 1.1em; margin-bottom: 1em;">
     <a href="https://zyy0530.github.io/" target="_blank">Ziyue Wang</a><sup>1</sup>,
     <a href="https://lzhou1110.github.io/" target="_blank">Liyi Zhou</a><sup>2,3,4</sup>
   </p>
 
-  <p style="font-size: 0.9em; color: #666;">
+  <p style="font-size: 0.9em; color: #666; margin-bottom: 1em;">
     <sup>1</sup>Nanjing University<br>
     <sup>2</sup>The University of Sydney,
     <sup>3</sup>Decentralized Intelligence AG,
@@ -37,12 +37,10 @@ In real-world evaluation on 169 production APKs, A2 uncovers **104 true-positive
 
 ---
 
-## System Workflow
+## A2 Workflow
 
 <div style="text-align: center; margin: 2em 0;">
-  <object data="assets/images/workflow.pdf" type="application/pdf" width="100%" height="600px">
-    <p>Your browser does not support PDFs. <a href="assets/images/workflow.pdf">Download the workflow diagram</a>.</p>
-  </object>
+  <img src="assets/images/workflow.png" alt="A2 System Workflow" style="max-width: 100%; height: auto; border: 1px solid #ddd; padding: 10px; background-color: white;">
 
   <p style="font-size: 0.9em; color: #666; margin-top: 1em; text-align: left;">
     <strong>Figure:</strong> The end-to-end workflow of A2, from APK input to validated vulnerability findings with proof-of-concept output. A2 operates in two phases: <strong>Agentic Vulnerability Discovery</strong> (①-⑤, blue blocks) and <strong>Agentic Vulnerability Validation</strong> (⑥–⑧, brown blocks). In the vulnerability discovery phase, the target APK is decompiled and its resources extracted (①). LLM agents then analyze the application (②), producing speculative vulnerability findings. Optionally, warnings from existing SAST tools (③) are passed through the formatter (④), which standardizes them and produces additional speculative vulnerability findings to enhance coverage and confidence. All speculative findings are then consolidated by the aggregator (⑤). In the vulnerability validation phase, each speculative vulnerability finding is passed to the PoC planner (⑥), which generates task lists with expected outcomes. The task executor (⑦) sequentially carries out these tasks through function calls (e.g., emulator, screenshot analysis, code execution, terminal commands, and etc.) Finally, the task validator (⑧) independently verifies outcomes using multiple oracles, providing feedback for iterative refinement until either successful validation or retry limits are reached.
